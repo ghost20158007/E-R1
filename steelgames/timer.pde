@@ -1,10 +1,15 @@
 class Timer {
-  int savedTime; //when timer starts
-  int totalTime; //timer duration
+  int savedTime; //when timer starts( ͡° ͜ʖ ͡°)
+  int totalTime; //timer duration( ͡° ͜ʖ ͡°)
 
   Timer(int tempTotalTime) {
     totalTime= tempTotalTime;
   }
+
+  void setTime(int t) {
+    totalTime = t;
+  }
+
   void start() { 
     savedTime = millis();
   }
@@ -17,3 +22,4 @@ class Timer {
     }
   }
 }
+//( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)

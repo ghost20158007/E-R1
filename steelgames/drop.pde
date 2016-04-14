@@ -3,6 +3,8 @@ class Drop {
   float speed;
   color c;
   float r;
+  //keep track of wether drop is still being used ( ͡° ͜ʖ ͡°)
+  boolean finished = false;
 
   Drop() {
     r = 8;
@@ -28,5 +30,13 @@ class Drop {
       return false;
     }
   }
+  //function for when drop is caught( ͡° ͜ʖ ͡°)
+  //void caught(){
+  //  speed = 0;
+  //  y = -1000;
+}
+//}
+void finished() {
+  finished = true;
 }
 //( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)
